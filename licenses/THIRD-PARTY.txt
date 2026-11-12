@@ -1,0 +1,10 @@
+This portable distribution includes unmodified third-party runtime binaries.
+
+Electron 45.2.3: https://github.com/electron/electron
+Electron's LICENSE and LICENSES.chromium.html are included in node_modules/electron/dist.
+
+OpenAI Codex CLI 0.148.0: https://github.com/openai/codex
+Licensed under Apache-2.0. See CODEX-LICENSE.txt and CODEX-NOTICE.txt.
+The Codex vendor directory is included unchanged under runtime/codex.
+
+The application is an independent personal tool; it is not an official OpenAI or Quicker product.

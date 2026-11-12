@@ -1,0 +1,3 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');const {renderMarkdown}=require('../app/markdown.js');
+test('renders actual translation headings as bold without literal stars',()=>{const html=renderMarkdown('**翻译**  \n质疑错误的前提\n\n**语境解释**');assert.match(html,/<strong>翻译<\/strong>/);assert.match(html,/<strong>语境解释<\/strong>/);assert.ok(!html.includes('**'));});
+test('model output cannot create executable HTML',()=>{const html=renderMarkdown('<img src=x onerror=alert(1)>\n**<script>alert(1)</script>**');assert.ok(!html.includes('<img'));assert.ok(!html.includes('<script>'));assert.match(html,/&lt;script&gt;/);});

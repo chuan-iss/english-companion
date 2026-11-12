@@ -1,0 +1,15 @@
+{
+  "name": "english-companion",
+  "version": "0.3.1",
+  "private": true,
+  "description": "Personal English reading and commenting companion for Quicker and Chrome",
+  "main": "app/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.cjs",
+    "probe": "node scripts/probe.cjs"
+  },
+  "devDependencies": {
+    "electron": "45.2.3"
+  }
+}
