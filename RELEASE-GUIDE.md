@@ -4,7 +4,7 @@
 
 ## 首次使用
 
-1. 传输 `EnglishCompanion-0.3.1-win-x64.zip` 到另一台电脑。
+1. 在另一台电脑打开 [GitHub Releases](https://github.com/chuan-iss/english-companion/releases/tag/v0.3.1)，下载 `EnglishCompanion-0.3.1-win-x64.zip`。私有仓库需要登录有访问权限的 GitHub 账号。
 2. 完整解压，例如放在 `D:\Tools\EnglishCompanion`。不要直接在 ZIP 里运行，也不要只复制 Start.vbs。
 3. 双击 `Start.vbs`。
 4. 在窗口底部展开「连接与使用说明」，点击「使用 ChatGPT 登录」，在官方页面登录自己的 Plus 账号。如果该电脑已有 Codex 的 ChatGPT 登录，可直接复用。账号凭证不在发布包中。
@@ -38,7 +38,7 @@ Quicker 只是入口，不代替上述程序和 Chrome 扩展。
 
 自己另一台电脑：把完整 ZIP 通过 U 盘、网盘或局域网传过去即可。
 
-公开试用：发布**生成的 ZIP**到 GitHub Releases 或你管理的下载地址，Quicker 动作说明链接到下载包和本说明。不要直接压缩你平时使用的安装目录，因为其中可能已有配对码和缓存。此处只准备文件，尚未上传或公开发布。
+公开试用：发布**生成的 ZIP**到 GitHub Releases 或你管理的下载地址，Quicker 动作说明链接到下载包和本说明。不要直接压缩你平时使用的安装目录，因为其中可能已有配对码和缓存。当前下载入口为 [GitHub Releases](https://github.com/chuan-iss/english-companion/releases/tag/v0.3.1)，访问权限跟随仓库设置。
 
 正式自动更新：后续需要桌面安装包与更新源；Chrome 扩展需要独立的商店发布/更新流程。不能只更新 Quicker 动作就让所有组件自动升级。
 
@@ -46,4 +46,4 @@ Quicker 只是入口，不代替上述程序和 Chrome 扩展。
 
 开发电脑运行 `python scripts/build-release.py` 可生成完整包、轻量更新包、文件清单与 SHA-256 校验文件。脚本使用明确的文件白名单，不包含 `.runtime`、账号凭证、测试数据、个人目录和 Git 元数据。
 
-发布包携带 Electron 与 Codex 的第三方许可和说明。另一台电脑首次使用仍需要自己登录、安装扩展和配对；这台开发机上的成功测试不等于已在所有电脑上验证。
+发布包携带 Electron 与 Codex 的第三方许可和说明。另一台电脑首次使用需要登录自己的账号、安装扩展并配对。

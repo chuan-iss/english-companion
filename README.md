@@ -89,7 +89,9 @@ English Companion 是一个运行在 Windows 上、配合 Chrome 使用的英语
 
 ### 使用完整便携包
 
-**目前便携包尚未上传到 GitHub Releases。「Download ZIP」下载的是源码，不能当作完整便携包直接运行。** 获得 `EnglishCompanion-0.3.1-win-x64.zip` 完整包后：
+从 [GitHub Releases 下载完整便携包](https://github.com/chuan-iss/english-companion/releases/tag/v0.3.1)，选择 `EnglishCompanion-0.3.1-win-x64.zip`。首次使用下载完整包，已有安装使用 `update.zip` 更新。仓库的「Download ZIP」用于下载源码。
+
+下载后：
 
 1. 完整解压到固定文件夹，例如 `D:\Tools\EnglishCompanion`，不要在 ZIP 内直接运行。
 2. 双击 `Start.vbs`，打开助手。

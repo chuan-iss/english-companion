@@ -12,7 +12,7 @@ PREFIX = 'EnglishCompanion/'
 
 def release_files():
     files = {}
-    for folder in ('app', 'extension', 'licenses'):
+    for folder in ('app', 'extension', 'licenses', 'docs/guides'):
         for path in sorted((ROOT / folder).rglob('*')):
             if path.is_file():
                 files[path.relative_to(ROOT).as_posix()] = path
