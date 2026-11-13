@@ -16,3 +16,5 @@ __pycache__/
 *.pyc
 *.zip
 *.exe
+# Local guide sources embed original screenshots; publish flattened PNGs only.
+docs/guides/*.svg
